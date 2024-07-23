@@ -13,7 +13,7 @@ files = {
 }
 
 for _, l in files do
-  loadstring(game:HttpGet(l, true))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/railme37509124/bestexecutorscript/main/"..l, true))()
   wait(1)
 end
 print("LOVE FROM CRYSTALHUB!")
