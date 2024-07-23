@@ -2,7 +2,7 @@ files = {
   "blurify.lua",
   "camerakiller.lua",
   "circles.lua",
-  "fovdestoryer.lua",
+  "fovdestroyer.lua",
   "invert.lua",
   "notifications.lua",
   "paint.lua",
@@ -13,7 +13,9 @@ files = {
 }
 
 for _, l in files do
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/railme37509124/bestexecutorscript/main/"..l, true))()
-  wait(1)
+  spawn(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/railme37509124/bestexecutorscript/main/"..l, true))()
+  end)
+  wait(0.5)
 end
 print("LOVE FROM CRYSTALHUB!")
