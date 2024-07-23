@@ -1,6 +1,6 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/railme37509124/bestexecutorscript/main/scalein.lua", true))() --this one laggy so its special
 files = {
-  "iconspam.lua"
+  "iconspam.lua",
   "blurify.lua",
   "camerakiller.lua",
   "circles.lua",
