@@ -7,7 +7,7 @@ function rev()
 end
 
 spawn(function()
-  while task.wait(2)
+  while task.wait(2) do
     rev()
   end
 end)
